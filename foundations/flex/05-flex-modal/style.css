@@ -15,6 +15,32 @@ body {
   justify-content: center;
 }
 
+/* SOLUTION */
+.modal {
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+}
+
+.icon {
+  flex-shrink: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.text {
+  margin-bottom: 16px;
+}
+
+/* ===== */
+
 .modal {
   background: white;
   width: 480px;
